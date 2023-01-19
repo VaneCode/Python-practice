@@ -1,5 +1,4 @@
 fh = open('mbox-short.txt')
-print(fh)
-
-for lx in fh:
-    print(lx)
+for line in fh:
+    ly = line.rstrip()
+    print(ly.upper())
