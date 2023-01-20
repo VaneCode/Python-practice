@@ -7,6 +7,6 @@ for line in han:
      continue
     wds = line.split
     # Guardian in a compound statement
-    if wds.len < 1 or wds[0] != 'From':
+    if wds.len < 3 or wds[0] != 'From':
         continue
     print(wds[2])
