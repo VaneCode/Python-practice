@@ -6,6 +6,7 @@ for line in han:
      print('Blank line')
      continue
     wds = line.split
-    if wds[0] != 'From':
+    # Guardian in a compound statement
+    if wds.len < 1 or wds[0] != 'From':
         continue
     print(wds[2])
